@@ -1,0 +1,228 @@
+html{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerOne{
+  position: absolute;
+  width: 100%;
+  height: 125px;
+  background: #3B566E;
+}
+
+.logo img{
+  width: 100px;
+  height: 107px;
+}
+
+.TextLogo h1{
+  position: absolute;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6vw;
+  color: #F2F2F2;
+  line-height: 31px;
+  left: 145px;
+  top: 15px;
+}
+
+.TextLogo h2{
+  position: absolute;
+  text-align: left;
+  top: 75px;
+  left: 145px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2vw;
+  line-height: 29px;
+  color: #eaeaf7;
+}
+
+
+.logoEye img{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 15px;
+}
+
+.VerEye h1{
+  position: absolute;
+  top: 21px;
+  left: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
+  color: #F2F2F2;
+}
+
+.headerTwo{
+  position: absolute;
+  width: 100%;
+  height: 170px;
+  left: -0px;
+  margin-top: 125px ;
+  background-image: url(../../Ishodnic/MMBBB.png);
+}
+
+nav {
+  position: absolute;
+  display: inline-block;
+  width: 1128px;
+  margin-top: 90px;
+  
+}
+.submenu .topmenu ul {
+  list-style: none; 
+}
+
+.submenu > li{
+  list-style: none; 
+}
+
+.topmenu > li {
+  display: inline-block;
+  
+  position: relative;
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  transition: .5s linear;
+}
+.fa {
+  color: inherit;
+  padding-left: 10px;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.one ul {
+  background: #B5D6F1;
+}
+.one ul a {
+  font-weight: bold;
+  color: #3B566E;
+
+}
+.one .submenu {
+  display: none;
+  background: #d4e8f8;
+}
+.one ul li:hover .submenu {
+  display: block;
+}
+
+main {
+  flex-grow:1;
+}
+.TreeOne{
+  margin-top: 305px;
+}
+
+details > summary {
+  padding: 5px;
+  color: #3B566E;
+  cursor: pointer;
+  list-style: none;
+  font-size: 32px;
+  font-style: 600;
+}
+
+/*details > div {
+  border: 1px #ccc solid;
+  padding: 10px;
+  
+}*/
+
+details[open] > summary {
+color:#f2f2f2; 
+background-color:#3B566E;
+}
+
+details > summary > img{
+  height: 25px;
+  width: 25px;
+}
+
+.footer{
+  
+  margin-top: 10px;
+  width: 100%;
+  height: 320px;
+  background-color: #3B566E;
+  padding-top: 27px;
+}
+
+.KonRB img{
+  position: absolute;
+  width: 53px;
+  height: 56px;
+}
+
+.KonRB{
+  position: absolute;
+  
+}
+
+.KonRB a{
+  font-weight: 400;
+  margin-left: 50px;
+  color: #F2F2F2;
+}
+
+.KonRF img{
+  position: absolute;
+  width: 53px;
+  height: 58px;
+  height: 58px;
+}
+
+.KonRF{
+  position: absolute;
+  margin-top: 80px;
+}
+
+.KonRF a{
+  font-weight: 400;
+  margin-left: 50px;
+  color: #F2F2F2;
+}
+
+.Kont{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+.Kont h1{
+  font-weight: 700;
+  font-size: 18px;
+  color: #F2F2F2;
+}
+
+.Kont p{
+  font-weight: 400;
+  color: #F2F2F2;
+}

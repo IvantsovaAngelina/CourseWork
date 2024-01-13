@@ -1,0 +1,621 @@
+html{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerOne{
+  width: 100%;
+  height: 125px;
+  background: #3B566E;
+}
+
+.logo img{
+  width: 100px;
+  height: 107px;
+}
+
+.TextLogo h1{
+  position: absolute;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6vw;
+  color: #F2F2F2;
+  line-height: 31px;
+  left: 145px;
+  top: 15px;
+}
+
+.TextLogo h2{
+  position: absolute;
+  text-align: left;
+  top: 75px;
+  left: 145px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2vw;
+  line-height: 29px;
+  color: #eaeaf7;
+}
+
+.logoEye img{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 15px;
+}
+
+.VerEye h1{
+  position: absolute;
+  top: 21px;
+  left: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
+  color: #F2F2F2;
+}
+
+.headerTwo{
+  width: 100%;
+  height: 170px;
+  left: -0px;
+  background-image: url(../../Ishodnic/MMBBB.png)
+}
+
+nav {
+  position: absolute;
+  display: inline-block;
+  width: 1128px;
+  margin-top: 90px;
+  
+}
+.submenu .topmenu ul {
+  list-style: none; 
+}
+
+.submenu > li{
+  list-style: none; 
+}
+
+.topmenu > li {
+  display: inline-block;
+  
+  position: relative;
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  transition: .5s linear;
+}
+.fa {
+  color: inherit;
+  padding-left: 10px;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.one ul {
+  background: #B5D6F1;
+}
+.one ul a {
+  font-weight: bold;
+  color: #3B566E;
+
+}
+.one .submenu {
+  display: none;
+  background: #d4e8f8;
+}
+.one ul li:hover .submenu {
+  display: block;
+}
+
+main {
+  flex-grow:1;
+}
+
+.Osnova{
+  margin-top: 15px;
+}
+
+.Osnova h1{
+  font-size: 32px;
+  font-style: bold;
+}
+
+.Mtext {
+  margin-top: -15px;
+  width: 100%;
+}
+
+.Sotrudniki{
+  margin-top: 15px;
+}
+
+.Sotrudniki h1{
+  font-size: 32px;
+  font-style: bold;
+}
+
+.Sotrs {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  
+}
+
+.Sotr1{
+  width: 350px;
+  height: 466px;
+}
+
+.imgVH{
+  display: block;
+  margin: 0 auto;
+  width: 318px;
+  height: 423px;
+  
+}
+
+.name1 h1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.name1 p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.tel1{
+  display: flex;
+  margin-left: 17px;
+}
+
+.tel1 img {
+  width: 25px;
+  height: 27px;
+}
+
+.tel1 p{
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.5px;
+  line-height: 21px;
+}
+
+.email1{
+  display: flex;
+  margin-left: 17px;
+}
+
+.email1 img {
+  width: 25px;
+  height: 27px;
+}
+
+.email1 p{
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.5px;
+  line-height: 21px;
+}
+
+.Sotr2{
+  width: 350px;
+  height: 466px;
+}
+
+.imgIva{
+  display: block;
+  margin: 0 auto;
+  width: 318px;
+  height: 423px;
+  
+}
+
+.name2 h1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.name2 p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.tel2 {
+  display: flex;
+  margin-left: 17px;
+}
+
+.tel2 img {
+  width: 25px;
+  height: 27px;
+}
+
+.tel2 p{
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.5px;
+  line-height: 21px;
+}
+
+.email2{
+  display: flex;
+  margin-left: 17px;
+}
+
+.email2 img {
+  width: 25px;
+  height: 27px;
+}
+
+.email2 p{
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.5px;
+  line-height: 21px;
+}
+
+.Sotr3{
+  width: 350px;
+  height: 466px;
+}
+
+.imgMag{
+  display: block;
+  margin: 0 auto;
+  width: 318px;
+  height: 423px;
+  
+}
+
+.name3 h1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.name3 p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.tel3 {
+  display: flex;
+  margin-left: 17px;
+}
+
+.tel3 img {
+  width: 25px;
+  height: 27px;
+}
+
+.tel3 p{
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.5px;
+  line-height: 21px;
+}
+
+.email3{
+  display: flex;
+  margin-left: 17px;
+}
+
+.email3 img {
+  width: 25px;
+  height: 27px;
+}
+
+.email3 p{
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.5px;
+  line-height: 21px;
+}
+
+.Sotrs2 {
+  display: flex;
+  margin-top: 120px;
+  padding-bottom: 30px;
+}
+
+.Sotr4{
+  width: 350px;
+  height: 466px;
+}
+
+.imgBan {
+  display: block;
+  margin: 0 auto;
+  width: 318px;
+  height: 423px;
+  
+}
+
+.name4 h1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.name4 p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.tel4{
+  display: flex;
+  margin-left: 17px;
+}
+
+.tel4 img {
+  width: 25px;
+  height: 27px;
+}
+
+.tel4 p{
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.5px;
+  line-height: 21px;
+}
+
+.email4 {
+  display: flex;
+  margin-left: 17px;
+}
+
+.email4 img {
+  width: 25px;
+  height: 27px;
+}
+
+.email4 p{
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.5px;
+  line-height: 21px;
+}
+
+.Sotr5 {
+  width: 350px;
+  height: 466px;
+}
+
+.imgAnd {
+  display: block;
+  margin: 0 auto;
+  width: 318px;
+  height: 423px;
+  
+}
+
+.name5 h1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.name5 p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.tel5 {
+  display: flex;
+  margin-left: 17px;
+}
+
+.tel5 img {
+  width: 25px;
+  height: 27px;
+}
+
+.tel5 p{
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.5px;
+  line-height: 21px;
+}
+
+.email5 {
+  display: flex;
+  margin-left: 17px;
+}
+
+.email5 img {
+  width: 25px;
+  height: 27px;
+}
+
+.email5 p{
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.5px;
+  line-height: 21px;
+}
+
+.Sotr6 {
+  width: 350px;
+  height: 466px;
+}
+
+.imgUr{
+  display: block;
+  margin: 0 auto;
+  width: 318px;
+  height: 423px;
+  
+}
+
+.name6 h1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.name6 p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.tel6 {
+  display: flex;
+  margin-left: 17px;
+}
+
+.tel6 img {
+  width: 25px;
+  height: 27px;
+}
+
+.tel6 p{
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.5px;
+  line-height: 21px;
+}
+
+.email6 {
+  display: flex;
+  margin-left: 17px;
+}
+
+.email6 img {
+  width: 25px;
+  height: 27px;
+}
+
+.email6 p{
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.5px;
+  line-height: 21px;
+}
+
+.footer{
+  margin-top: 85px;
+  width: 100%;
+  height: 320px;
+  background-color: #3B566E;
+  padding-top: 27px;
+}
+
+.KonRB img{
+  position: absolute;
+  width: 53px;
+  height: 56px;
+}
+
+.KonRB{
+  position: absolute;
+  
+}
+
+.KonRB a{
+  font-weight: 400;
+  margin-left: 50px;
+  color: #F2F2F2;
+}
+
+.KonRF img{
+  position: absolute;
+  width: 53px;
+  height: 58px;
+  height: 58px;
+}
+
+.KonRF{
+  position: absolute;
+  margin-top: 80px;
+}
+
+.KonRF a{
+  font-weight: 400;
+  margin-left: 50px;
+  color: #F2F2F2;
+}
+
+.Kont{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+.Kont h1{
+  font-weight: 700;
+  font-size: 18px;
+  color: #F2F2F2;
+}
+
+.Kont p{
+  font-weight: 400;
+  color: #F2F2F2;
+}
